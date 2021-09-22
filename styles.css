@@ -1,0 +1,144 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+}
+
+h1,h4,h5 {
+  font-weight: bold;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+}
+
+/* button */
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+button {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  border: 0;
+}
+
+/* header */
+
+.copyright-img {
+  background-image: url("images/bg-header-desktop.png");
+  padding: 5%;
+}
+
+.header {
+  padding: 3% 20%;
+}
+
+.header-text {
+  padding-bottom: 3%;
+}
+
+/* second section */
+.snippets {
+  padding: 3% 25%;
+}
+
+/* third section */
+.left-align {
+  text-align: left;
+  padding: 7% 2%;
+}
+
+.title {
+  padding: 3%;
+}
+
+/* fourth section */
+.access {
+  padding: 8% 8% 0;
+}
+
+.access-text {
+  padding: 0 20% 5%;
+}
+
+/* fifth section */
+.supercharge {
+  padding-bottom: 2%;
+}
+
+.final-content {
+  padding: 0 5% 5%;
+}
+
+.img {
+  margin: 40px;
+}
+
+/* logo section */
+.icons {
+  padding: 5% 0;
+}
+
+.col-lg-2 {
+  padding: 0 2%;
+}
+
+/* download section */
+.download-section {
+  padding: 5% 22%;
+}
+
+.last-text {
+  padding-bottom: 4%;
+}
+
+/* contact section */
+.contact {
+  padding: 5%;
+  background-color: #F7F6F2;
+}
+
+span {
+  margin-bottom: 3%;
+}
+
+.social-icons {
+  position: relative;
+  left: 400px;
+}
+
+.icon {
+  margin-right: 30px;
+}
+
+@media (max-width:600px) {
+   .ios {
+     margin-bottom: 20px;
+   }
+
+   .left-align {
+     text-align: center;
+   }
+
+  .logo {
+    padding-bottom: 8%;
+  }
+
+  .social-icons {
+    left: 0;
+    padding-top: 3%;
+  }
+
+  .computer,.devices {
+    width: 100%;
+    height: auto;
+  }
+
+
+}
